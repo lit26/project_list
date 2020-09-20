@@ -1,0 +1,15 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+}
+.header__title{
+    color:  rgb(50, 90, 180);
+}
+.header__icons a{
+    margin:10px
+}
+.header__icons MuiSvgIcon-root{
+    color:rgb(50, 90, 180) !important;
+}
