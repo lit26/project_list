@@ -1,0 +1,15 @@
+.hashtag{
+    margin:10px 13%;
+    display: flex;
+}
+.hashtag_item{
+    background-color:#c8d2e7;
+    color:white;
+    margin:3px;
+    padding:5px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.hashtag_item:hover{
+    cursor: pointer;
+}

@@ -3,7 +3,10 @@ import './ProjectItemCard.css'
 
 function ProjectItemCard({ project }) {
     return (
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
+        <a className={`projectItemCard__link all ${project.select}`}
+            href={project.link} 
+            target="_blank" 
+            rel="noopener noreferrer">
             <div className="projectItemCard">
                 <img className="projectItemCard__img"
                     src={require(`./images/${project.img}`)}

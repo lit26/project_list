@@ -10,6 +10,6 @@
 .header__icons a{
     margin:10px
 }
-.header__icons MuiSvgIcon-root{
-    color:rgb(50, 90, 180) !important;
+.header__icons .MuiSvgIcon-root{
+    color:rgb(85, 26, 139) !important;
 }

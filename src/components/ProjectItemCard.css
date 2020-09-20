@@ -1,6 +1,33 @@
 a{
     text-decoration: none;
 }
+.projectItemCard__link{
+    display: none;
+    animation: fade-out 0.3s;
+    opacity: 0;
+}
+.projectItemCard__link.active{
+    opacity: 1;
+    display: block;
+    animation: fade-in 0.3s;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 .projectItemCard{
     display:flex;
     padding:22px 8px 18px 16px;
