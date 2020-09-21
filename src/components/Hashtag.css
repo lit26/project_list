@@ -1,6 +1,7 @@
 .hashtag{
     margin:10px 13%;
     display: flex;
+    flex-wrap: wrap;
 }
 .hashtag_item{
     background-color:#c8d2e7;
