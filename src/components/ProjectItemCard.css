@@ -49,6 +49,7 @@ p{
     width:300px;
     height:200px;
     margin-right: 30px;
+    box-shadow: 0 4px 8px 0 #c8d2e7, 0 6px 20px 0 #c8d2e7;
 }
 .projectItemCard__info{
     text-decoration: none;
