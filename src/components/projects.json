@@ -100,17 +100,6 @@
     },
     {
     	"id": 10,
-        "project_name":"finvizfinance",
-        "img": "finvizfinance.png",
-        "select": "python_library",
-        "hashtag": ["python-library"],
-        "tech":["Python"],
-        "link": "https://github.com/lit26/finvizfinance",
-        "description": "finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
-        "time":"Jul 2020 – Present"
-    },
-    {
-    	"id": 11,
         "project_name":"google_clone",
         "img": "google_clone.png",
         "select": "web",
@@ -119,5 +108,16 @@
         "link": "https://github.com/lit26/google_clone",
         "description": "Develop a website which clone style of google. ",
         "time":"Aug 2020 – Aug 2020"
+    },
+    {
+    	"id": 11,
+        "project_name":"finvizfinance",
+        "img": "finvizfinance.png",
+        "select": "python_library",
+        "hashtag": ["python-library"],
+        "tech":["Python"],
+        "link": "https://github.com/lit26/finvizfinance",
+        "description": "finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
+        "time":"Jul 2020 – Present"
     }
 ]
