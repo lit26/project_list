@@ -119,5 +119,17 @@
         "link": "https://github.com/lit26/finvizfinance",
         "description": "finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
         "time":"Jul 2020 – Present"
+    },
+    {
+    	"id": 12,
+        "project_name":"PaddleGame",
+        "img": "paddleGame.png",
+        "select": "ml/ds",
+        "hashtag": ["reinforcement-learning"],
+        "tech":["Python"],
+        "link": "https://github.com/lit26/ReinforcementLearningProjects/tree/main/PaddleGame",
+        "description": "Bulding an gym environment and reinforcement-learning agent to train the AI to play paddle game.",
+        "time":"Jul 2020 – Present"
     }
+
 ]
