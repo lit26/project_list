@@ -40,7 +40,7 @@
         "hashtag": ["python-library"],
         "tech":["Python"],
         "link": "https://github.com/lit26/ta",
-        "description": "Technical Analysis library to financial time series datasets.",
+        "description": "Technical Analysis library to financial time series datasets. Major contributor to the Library. Implement indicator functions and plotly functions.",
         "time":"Jun 2020 - Present"
     },
     {
@@ -117,7 +117,7 @@
         "hashtag": ["python-library"],
         "tech":["Python"],
         "link": "https://github.com/lit26/finvizfinance",
-        "description": "finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
+        "description": "Develop a python package for fetching financial information. finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
         "time":"Jul 2020 – Present"
     },
     {
