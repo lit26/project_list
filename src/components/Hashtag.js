@@ -43,6 +43,9 @@ function Hashtag() {
             <div className="hashtag_item python_library" onClick={() => clickHandler("python_library")}>
                 Python Library
             </div>
+            <div className="hashtag_item data_viz" onClick={() => clickHandler("data_viz")}>
+                Data Visualization
+            </div>
             <div className="hashtag_item miscellaneous" onClick={() => clickHandler("miscellaneous")}>
                 Miscellaneous
             </div>

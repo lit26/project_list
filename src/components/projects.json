@@ -56,17 +56,6 @@
     },
     {
     	"id": 6,
-        "project_name":"COVID-19 US Case Map",
-        "img": "covid_dash.png",
-        "select": "web",
-        "hashtag": ["web-programming"],
-        "tech":["Python-Dash"],
-        "link": "https://github.com/lit26/COVID19_Dashboard",
-        "description": "Build a data visualization dashboard using Python Dash. The dashboard will display the data maps, time-series data, and comparison based on different settings.",
-        "time":"Apr 2020 - Apr 2020"
-    },
-    {
-    	"id": 7,
         "project_name":"Tweet Analysis of COVID-19",
         "img": "tweet_covid.png",
         "select": "ml/ds",
@@ -77,7 +66,7 @@
         "time":"Apr 2020 – May 2020"
     },
     {
-    	"id": 8,
+    	"id": 7,
         "project_name":"Option Warning",
         "img": "option_warn.png",
         "select": "web",
@@ -88,7 +77,7 @@
         "time":"Apr 2020 – May 2020"
     },
     {
-    	"id": 9,
+    	"id": 8,
         "project_name":"youtube_clone",
         "img": "youtube_clone.png",
         "select": "web",
@@ -99,7 +88,7 @@
         "time":"Aug 2020 – Aug 2020"
     },
     {
-    	"id": 10,
+    	"id": 9,
         "project_name":"google_clone",
         "img": "google_clone.png",
         "select": "web",
@@ -110,18 +99,18 @@
         "time":"Aug 2020 – Aug 2020"
     },
     {
-    	"id": 11,
+    	"id": 10,
         "project_name":"finvizfinance",
         "img": "finvizfinance.png",
         "select": "python_library",
         "hashtag": ["python-library"],
         "tech":["Python"],
         "link": "https://github.com/lit26/finvizfinance",
-        "description": "Develop a python package for fetching financial information. finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. ",
+        "description": "Develop a python package for fetching financial information. finvizfinance is a package which collects financial information from FinViz website. The library provides fundamental & technical information as well as stock charts, news, and insider trading data. Forex and crypto trading information and earning calls are also available in the library. Publish in Pypi.",
         "time":"Jul 2020 – Present"
     },
     {
-    	"id": 12,
+    	"id": 11,
         "project_name":"PaddleGame",
         "img": "paddleGame.png",
         "select": "ml/ds",
@@ -129,7 +118,40 @@
         "tech":["Python"],
         "link": "https://github.com/lit26/ReinforcementLearningProjects/tree/main/PaddleGame",
         "description": "Bulding an gym environment and reinforcement-learning agent to train the AI to play paddle game.",
-        "time":"Jul 2020 – Present"
+        "time":"Jul 2020 – Oct 2020"
+    },
+    {
+    	"id": 12,
+        "project_name":"COVID-19 US Case Map",
+        "img": "covid_dash.png",
+        "select": "data_viz web",
+        "hashtag": ["web-programming","data-visualization"],
+        "tech":["Python-Dash","React.js"],
+        "link": "https://github.com/lit26/COVID19_Dashboard",
+        "description": "Build data visualization dashboards with two version of Python-Dash and React.js. The dashboard will display the data maps, time-series data, and comparison based on different settings.",
+        "time":"Apr 2020 - Apr 2020"
+    },
+    {
+    	"id": 13,
+        "project_name":"Stock Market App",
+        "img": "stock_market_app.png",
+        "select": "web",
+        "hashtag": ["web-programming"],
+        "tech":["React.js", "Django"],
+        "link": "https://github.com/lit26/Stock_Market_App",
+        "description": "Bulding a stock market app. Fetching stock data from yafoo finance and create an API using Django Rest Framework. Visulize the stock candlestick charts using React.js.",
+        "time":"Nov 2020 – Dec 2020"
+    },
+    {
+    	"id": 14,
+        "project_name":"streamlit-webscrap-tool",
+        "img": "streamlit_webscrap_tool.png",
+        "select": "web python_library",
+        "hashtag": ["app-development"],
+        "tech":["React.js", "Python"],
+        "link": "https://github.com/lit26/streamlit-webscrap-tool",
+        "description": "Build a web scrap tool for assisting web scraping by visualizing the html code of the scrap result and its web display. Publish in Pypi.",
+        "time":"Dec 2020 – Dec 2020"
     }
 
 ]
