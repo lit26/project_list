@@ -152,6 +152,17 @@
         "link": "https://github.com/lit26/streamlit-webscrap-tool",
         "description": "Build a web scrap tool for assisting web scraping by visualizing the html code of the scrap result and its web display. Publish in Pypi.",
         "time":"Dec 2020 – Dec 2020"
+    },
+    {
+    	"id": 15,
+        "project_name":"Ark Trade Tracker",
+        "img": "arktradetracker.png",
+        "select": "web",
+        "hashtag": ["web-programming"],
+        "tech":["React.js", "Firebase", "Python"],
+        "link": "https://github.com/lit26/Ark_Trade_Tracker",
+        "description": "Developed a React.js platform for tracking Ark Invest ETFs and give insights for stock investing. Displayed the table and charts and updated the setting with React Redux. Prepared data with python and update daily through GitHub schedule actions. Deployed through firebase and experienced using Google Analytics to tracker the clients for improvements.",
+        "time":"Dec 2020 – Jan 2021"
     }
 
 ]
