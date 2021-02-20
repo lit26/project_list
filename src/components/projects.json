@@ -72,7 +72,7 @@
         "select": "web",
         "hashtag": ["web-programming","chrome-extension"],
         "tech":["React.js"],
-        "link": "https://github.com/lit26/Tweet_Analysis_COVID-19",
+        "link": "https://github.com/lit26/Option_Warning",
         "description": "Develop a website and Google Chrome Extension for options trading analysis. Calculate the max profit and the max loss for multiple options and warn the user if the max loss exceeds $10000.",
         "time":"Apr 2020 – May 2020"
     },
