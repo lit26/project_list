@@ -163,6 +163,16 @@
         "link": "https://github.com/lit26/Ark_Trade_Tracker",
         "description": "Developed a React.js platform for tracking Ark Invest ETFs and give insights for stock investing. Displayed the table and charts and updated the setting with React Redux. Prepared data with python and update daily through GitHub schedule actions. Deployed through firebase and experienced using Google Analytics to tracker the clients for improvements.",
         "time":"Dec 2020 – Jan 2021"
+    },
+    {
+        "id": 16,
+        "project_name":"Trump Tweet Analysis",
+        "img": "trump_tweet_analysis.png",
+        "select": "ml/ds",
+        "hashtag": ["natural-language-processing"],
+        "tech":["Python"],
+        "link": "https://github.com/lit26/Trump_Tweet_Analysis",
+        "description": "Exploratory data analysis on Trump's tweets. Apply LDA Mallet model for topic modeling",
+        "time":"Jan 2020 – Feb 2021"
     }
-
 ]
