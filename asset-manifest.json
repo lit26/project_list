@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/project_list/static/css/main.4d220e5a.chunk.css",
+    "main.js": "/project_list/static/js/main.c27d611e.chunk.js",
+    "main.js.map": "/project_list/static/js/main.c27d611e.chunk.js.map",
+    "runtime-main.js": "/project_list/static/js/runtime-main.79ae19fc.js",
+    "runtime-main.js.map": "/project_list/static/js/runtime-main.79ae19fc.js.map",
+    "static/js/2.f2b85478.chunk.js": "/project_list/static/js/2.f2b85478.chunk.js",
+    "static/js/2.f2b85478.chunk.js.map": "/project_list/static/js/2.f2b85478.chunk.js.map",
+    "index.html": "/project_list/index.html",
+    "precache-manifest.672dfabd2dc4b46dee7fd183d2f8be60.js": "/project_list/precache-manifest.672dfabd2dc4b46dee7fd183d2f8be60.js",
+    "service-worker.js": "/project_list/service-worker.js",
+    "static/css/main.4d220e5a.chunk.css.map": "/project_list/static/css/main.4d220e5a.chunk.css.map",
+    "static/js/2.f2b85478.chunk.js.LICENSE.txt": "/project_list/static/js/2.f2b85478.chunk.js.LICENSE.txt",
+    "static/media/474project.png": "/project_list/static/media/474project.13735866.png",
+    "static/media/SIR_model.png": "/project_list/static/media/SIR_model.daeb4c2c.png",
+    "static/media/arktradetracker.png": "/project_list/static/media/arktradetracker.ca6244d2.png",
+    "static/media/automous_car.png": "/project_list/static/media/automous_car.96c35cf9.png",
+    "static/media/capstone.png": "/project_list/static/media/capstone.04540fad.png",
+    "static/media/covid_dash.png": "/project_list/static/media/covid_dash.79a4eff8.png",
+    "static/media/finvizfinance.png": "/project_list/static/media/finvizfinance.05e28857.png",
+    "static/media/google_clone.png": "/project_list/static/media/google_clone.d7ab9222.png",
+    "static/media/option_warn.png": "/project_list/static/media/option_warn.a4286375.png",
+    "static/media/paddleGame.png": "/project_list/static/media/paddleGame.09744cfb.png",
+    "static/media/stock_market_app.png": "/project_list/static/media/stock_market_app.347ac22a.png",
+    "static/media/streamlit_webscrap_tool.png": "/project_list/static/media/streamlit_webscrap_tool.d9f45bec.png",
+    "static/media/ta.png": "/project_list/static/media/ta.4bb91cdb.png",
+    "static/media/trump_tweet_analysis.png": "/project_list/static/media/trump_tweet_analysis.408b6916.png",
+    "static/media/tweet_covid.png": "/project_list/static/media/tweet_covid.a50ab010.png",
+    "static/media/youtube_clone.png": "/project_list/static/media/youtube_clone.461d6192.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79ae19fc.js",
+    "static/js/2.f2b85478.chunk.js",
+    "static/css/main.4d220e5a.chunk.css",
+    "static/js/main.c27d611e.chunk.js"
+  ]
+}
