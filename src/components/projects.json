@@ -172,7 +172,7 @@
         "hashtag": ["natural-language-processing"],
         "tech":["Python"],
         "link": "https://github.com/lit26/Trump_Tweet_Analysis",
-        "description": "Exploratory data analysis on Trump's tweets. Apply LDA Mallet model for topic modeling",
+        "description": "Exploratory data analysis on Trump's tweets. Apply LDA Mallet model for topic modeling.",
         "time":"Jan 2020 – Feb 2021"
     }
 ]
