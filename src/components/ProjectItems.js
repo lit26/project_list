@@ -1,19 +1,16 @@
-import React from 'react'
-import projects from './projects.json'
-import ProjectItemCard from './ProjectItemCard'
-import './ProjectItems.css'
+import React from 'react';
+import projects from './projects.json';
+import ProjectItemCard from './ProjectItemCard';
+import './ProjectItems.scss';
 
 function ProjectItems() {
-
     return (
         <div className="projectItems">
-            {projects.reverse().map((project, index)=>{
-                return (
-                    <ProjectItemCard key={index} project={project} />
-                )
-            })}
+            {projects.reverse().map((project, index) => (
+                <ProjectItemCard key={index} project={project} />
+            ))}
         </div>
-    )
+    );
 }
 
-export default ProjectItems
+export default ProjectItems;

@@ -1,55 +1,45 @@
-import React, { useState, useEffect } from 'react'
-import './Hashtag.css'
+import React, { useEffect } from 'react';
+import './Hashtag.scss';
 
-function Hashtag() {
-    const [selectItem, setSelectItem] = useState('all')
+const hashtags = [
+    { key: 'all', text: 'All' },
+    { key: 'ml/ds', text: 'Machine Learning/Data Science' },
+    { key: 'web', text: 'Web Development' },
+    { key: 'python_library', text: 'Python Library' },
+    { key: 'data_viz', text: 'Data Visualization' },
+    { key: 'quant', text: 'Quant' },
+    { key: 'miscellaneous', text: 'Miscellaneous' },
+];
 
+function Hashtag({ selectItem, setSelectItem }) {
     useEffect(() => {
-        clickHandler(selectItem)
-    }, [selectItem])
-
-    const clickHandler = hashtag => {
-        let hashtag_item = document.getElementsByClassName("hashtag_item")
-        for (let i = 0; i < hashtag_item.length; i++) {
-            hashtag_item[i].style.backgroundColor = "#c8d2e7";
-        }
-        hashtag_item = document.getElementsByClassName(hashtag)
-        hashtag_item[0].style.backgroundColor = "rgb(50, 90, 180)";
-        setSelectItem(hashtag)
-    }
-
-    useEffect(() => {
-        let hashtag_item = document.getElementsByClassName("projectItemCard__link");
+        let hashtag_item = document.getElementsByClassName(
+            'projectItemCard__link',
+        );
         for (let i = 0; i < hashtag_item.length; i++) {
             hashtag_item[i].classList.remove('active');
         }
-        hashtag_item = document.getElementsByClassName(`projectItemCard__link ${selectItem}`)
+        hashtag_item = document.getElementsByClassName(
+            `projectItemCard__link ${selectItem}`,
+        );
         for (let i = 0; i < hashtag_item.length; i++) {
             hashtag_item[i].classList.add('active');
         }
-    }, [selectItem])
+    }, [selectItem]);
 
     return (
         <div className="hashtag">
-            <div className="hashtag_item all" onClick={() => clickHandler("all")}>
-                All
-            </div>
-            <div className="hashtag_item ml/ds" onClick={() => clickHandler("ml/ds")}>
-                Machine Learning/Data Science
-            </div>
-            <div className="hashtag_item web" onClick={() => clickHandler("web")}>
-                Web Development
-            </div>
-            <div className="hashtag_item python_library" onClick={() => clickHandler("python_library")}>
-                Python Library
-            </div>
-            <div className="hashtag_item data_viz" onClick={() => clickHandler("data_viz")}>
-                Data Visualization
-            </div>
-            <div className="hashtag_item miscellaneous" onClick={() => clickHandler("miscellaneous")}>
-                Miscellaneous
-            </div>
+            {hashtags.map((hashtag, index) => (
+                <div
+                    key={`hashtag_${index}`}
+                    className={`hashtag_item ${
+                        selectItem === hashtag.key ? 'active' : ''
+                    }`}
+                    onClick={() => setSelectItem(hashtag.key)}>
+                    {hashtag.text}
+                </div>
+            ))}
         </div>
-    )
+    );
 }
-export default Hashtag
+export default Hashtag;

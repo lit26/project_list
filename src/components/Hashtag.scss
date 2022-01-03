@@ -1,3 +1,4 @@
+@import "../util";
 .hashtag{
     margin:10px 13%;
     display: flex;
@@ -10,7 +11,8 @@
     padding:5px 15px;
     border-radius: 25px;
     font-size: 15px;
-}
-.hashtag_item:hover{
     cursor: pointer;
+}
+.hashtag_item.active{
+    background-color: $primaryColor;
 }

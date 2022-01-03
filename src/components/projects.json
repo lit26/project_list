@@ -36,7 +36,7 @@
     	"id": 4,
         "project_name":"ta",
         "img": "ta.png",
-        "select": "python_library",
+        "select": "python_library quant",
         "hashtag": ["python-library"],
         "tech":["Python"],
         "link": "https://github.com/lit26/ta",
@@ -102,7 +102,7 @@
     	"id": 10,
         "project_name":"finvizfinance",
         "img": "finvizfinance.png",
-        "select": "python_library",
+        "select": "python_library quant",
         "hashtag": ["python-library"],
         "tech":["Python"],
         "link": "https://github.com/lit26/finvizfinance",
@@ -135,7 +135,7 @@
     	"id": 13,
         "project_name":"Stock Market App",
         "img": "stock_market_app.png",
-        "select": "web",
+        "select": "web quant",
         "hashtag": ["web-programming"],
         "tech":["React.js", "Django"],
         "link": "https://github.com/lit26/Stock_Market_App",
@@ -173,6 +173,28 @@
         "tech":["Python"],
         "link": "https://github.com/lit26/Trump_Tweet_Analysis",
         "description": "Exploratory data analysis on Trump's tweets. Apply LDA Mallet model for topic modeling.",
-        "time":"Jan 2020 – Feb 2021"
+        "time":"Jan 2021 – Feb 2021"
+    },
+    {
+        "id": 17,
+        "project_name":"Titanic Kaggle Competition",
+        "img": "noaa-e0eHtnr7eeU-unsplash.jpg",
+        "select": "ml/ds",
+        "hashtag": ["data-science"],
+        "tech":["Python"],
+        "link": "https://github.com/lit26/TitanicKaggleCompetition",
+        "description": "Build a random forest classifier that classifies people who were more likely to survive.",
+        "time":"Jul 2021 – Jul 2021"
+    },
+    {
+        "id": 18,
+        "project_name":"bokeh_fin",
+        "img": "boken_fin.png",
+        "select": "quant",
+        "hashtag": ["data-viz"],
+        "tech":["Python"],
+        "link": "https://github.com/lit26/bokeh_fin",
+        "description": "Build interactive stock charts for technical analysis using bokeh.js.",
+        "time":"Dec 2021 – Jan 2022"
     }
 ]
