@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 
 const ProjectContext = React.createContext();
 
@@ -7,9 +7,32 @@ export function useProject() {
 }
 
 export function ProjectProvider({ children }) {
+    const [projects, setProjects] = useState([]);
     const [selectCategory, setSelectCategory] = useState('all');
+    const [count, setCount] = useState(0);
+    const [total, setTotal] = useState(0);
 
-    const value = { selectCategory, setSelectCategory };
+    useEffect(() => {
+        if (selectCategory === 'all') {
+            setCount(projects.length);
+        } else {
+            setCount(
+                projects.filter(project =>
+                    project.select.split(' ').includes(selectCategory),
+                ).length,
+            );
+        }
+        setTotal(projects.length);
+    }, [projects, selectCategory]);
+
+    const value = {
+        projects,
+        setProjects,
+        selectCategory,
+        setSelectCategory,
+        count,
+        total,
+    };
 
     return (
         <ProjectContext.Provider value={value}>

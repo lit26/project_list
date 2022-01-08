@@ -13,21 +13,24 @@ const hashtags = [
 ];
 
 function Hashtag() {
-    const { selectCategory, setSelectCategory } = useProject();
+    const { selectCategory, setSelectCategory, count, total } = useProject();
 
     return (
-        <div className="hashtag">
-            {hashtags.map((hashtag, index) => (
-                <div
-                    key={`hashtag_${index}`}
-                    className={`hashtag_item ${
-                        selectCategory === hashtag.key ? 'active' : ''
-                    }`}
-                    onClick={() => setSelectCategory(hashtag.key)}>
-                    {hashtag.text}
-                </div>
-            ))}
-        </div>
+        <>
+            <div className="hashtag">
+                {hashtags.map((hashtag, index) => (
+                    <div
+                        key={`hashtag_${index}`}
+                        className={`hashtag_item ${
+                            selectCategory === hashtag.key ? 'active' : ''
+                        }`}
+                        onClick={() => setSelectCategory(hashtag.key)}>
+                        {hashtag.text}
+                    </div>
+                ))}
+            </div>
+            <div className="stat">{`Project count: ${count}/${total}`}</div>
+        </>
     );
 }
 export default Hashtag;
