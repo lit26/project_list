@@ -1,12 +1,20 @@
 import React from 'react';
 import './ProjectItemCard.scss';
+import { useProject } from '../context/ProjectContext';
 
 function ProjectItemCard({ project }) {
+    const { selectCategory } = useProject();
     const { select, img, project_name, time, hashtag, tech, description } =
         project;
+
     return (
         <a
-            className={`projectItemCard__link all ${select}`}
+            className={`projectItemCard__link ${
+                select.split(' ').includes(selectCategory) ||
+                selectCategory === 'all'
+                    ? 'active'
+                    : ''
+            } `}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer">

@@ -190,11 +190,22 @@
         "id": 18,
         "project_name":"bokeh_fin",
         "img": "boken_fin.png",
-        "select": "quant",
-        "hashtag": ["data-viz"],
+        "select": "data_viz quant",
+        "hashtag": ["data-visualization"],
         "tech":["Python"],
         "link": "https://github.com/lit26/bokeh_fin",
         "description": "Build interactive stock charts for technical analysis using bokeh.js.",
         "time":"Dec 2021 – Jan 2022"
+    },
+    {
+        "id": 19,
+        "project_name":"streamlit-img-label",
+        "img": "st_img_label.gif",
+        "select": "web python_library",
+        "hashtag": ["web-programming"],
+        "tech":["Typescript","Python", "Streamlit"],
+        "link": "https://github.com/lit26/streamlit-img-label",
+        "description": "streamlit-img-label is a graphical image annotation tool using streamlit. Annotations are saved as XML files in PASCAL VOC format. This tool is mainly used for computer vision preprocessing tasks.",
+        "time":"Jan 2022 – Jan 2022"
     }
 ]

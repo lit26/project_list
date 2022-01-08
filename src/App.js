@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
 // components
@@ -8,12 +8,11 @@ import ProjectItems from './components/ProjectItems';
 import Footer from './components/Footer';
 
 function App() {
-    const [selectItem, setSelectItem] = useState('all');
     return (
         <div className="App">
             <Header />
-            <Hashtag selectItem={selectItem} setSelectItem={setSelectItem} />
-            <ProjectItems selectItem={selectItem} />
+            <Hashtag />
+            <ProjectItems />
             <Footer />
         </div>
     );

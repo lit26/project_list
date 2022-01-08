@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Hashtag.scss';
+import { useProject } from '../context/ProjectContext';
 
 const hashtags = [
     { key: 'all', text: 'All' },
@@ -11,21 +12,8 @@ const hashtags = [
     { key: 'miscellaneous', text: 'Miscellaneous' },
 ];
 
-function Hashtag({ selectItem, setSelectItem }) {
-    useEffect(() => {
-        let hashtag_item = document.getElementsByClassName(
-            'projectItemCard__link',
-        );
-        for (let i = 0; i < hashtag_item.length; i++) {
-            hashtag_item[i].classList.remove('active');
-        }
-        hashtag_item = document.getElementsByClassName(
-            `projectItemCard__link ${selectItem}`,
-        );
-        for (let i = 0; i < hashtag_item.length; i++) {
-            hashtag_item[i].classList.add('active');
-        }
-    }, [selectItem]);
+function Hashtag() {
+    const { selectCategory, setSelectCategory } = useProject();
 
     return (
         <div className="hashtag">
@@ -33,9 +21,9 @@ function Hashtag({ selectItem, setSelectItem }) {
                 <div
                     key={`hashtag_${index}`}
                     className={`hashtag_item ${
-                        selectItem === hashtag.key ? 'active' : ''
+                        selectCategory === hashtag.key ? 'active' : ''
                     }`}
-                    onClick={() => setSelectItem(hashtag.key)}>
+                    onClick={() => setSelectCategory(hashtag.key)}>
                     {hashtag.text}
                 </div>
             ))}
