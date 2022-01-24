@@ -13,7 +13,7 @@ function ProjectItems() {
 
     return (
         <div className="projectItems">
-            {projects.reverse().map((project, index) => (
+            {[...projects].reverse().map((project, index) => (
                 <ProjectItemCard key={index} project={project} />
             ))}
         </div>

@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import { firebaseAnalytics } from '../firebaseConfig';
 
 const ProjectContext = React.createContext();
 
@@ -21,6 +22,7 @@ export function ProjectProvider({ children }) {
                     project.select.split(' ').includes(selectCategory),
                 ).length,
             );
+            firebaseAnalytics.logEvent(selectCategory);
         }
         setTotal(projects.length);
     }, [projects, selectCategory]);

@@ -1,11 +1,18 @@
 import React from 'react';
 import './ProjectItemCard.scss';
 import { useProject } from '../context/ProjectContext';
+import { firebaseAnalytics } from '../firebaseConfig';
 
 function ProjectItemCard({ project }) {
     const { selectCategory } = useProject();
     const { select, img, project_name, time, hashtag, tech, description } =
         project;
+
+    const handleProjectClick = () => {
+        firebaseAnalytics.logEvent(selectCategory, {
+            projectName: project_name,
+        });
+    };
 
     return (
         <a
@@ -17,11 +24,12 @@ function ProjectItemCard({ project }) {
             } `}
             href={project.link}
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            onClick={handleProjectClick}>
             <div className="projectItemCard">
                 <img
                     className="projectItemCard__img"
-                    src={require(`./images/${img}`).default}
+                    src={require(`./images/${img}`)}
                     alt=""
                 />
                 <div className="projectItemCard__info">
