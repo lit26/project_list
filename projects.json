@@ -214,7 +214,7 @@
         "img": "postman-easy-team.png",
         "select": "web",
         "hashtag": ["web-programming"],
-        "tech":["Typescript","Firebase", "Streamlit"],
+        "tech":["Typescript","Firebase"],
         "link": "https://github.com/lit26/postman-easy-team",
         "description": "This project is an easy postman web app that can be used for frontend and backend to test api endpoints. The app use Google firebase storage to store the requests and history and authenticate users with firebase authentication. Teams can test GET, POST, PUT, PATCH, and DELETE requests with request headers, body, paramsters and authentications securely.",
         "time":"May 2022 – May 2022"
