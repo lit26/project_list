@@ -206,7 +206,7 @@
         "tech":["Typescript","Python", "Streamlit"],
         "link": "https://github.com/lit26/streamlit-img-label",
         "description": "streamlit-img-label is a graphical image annotation tool using streamlit. Annotations are saved as XML files in PASCAL VOC format. This tool is mainly used for computer vision preprocessing tasks.",
-        "time":"Jan 2022 – Tue 2022"
+        "time":"Jan 2022 – Feb 2022"
     },
     {
         "id": 20,
