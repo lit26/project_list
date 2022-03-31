@@ -1,23 +1,26 @@
-import React, { useEffect } from 'react';
-import projects from './projects.json';
-import ProjectItemCard from './ProjectItemCard';
-import './ProjectItems.scss';
-import { useProject } from '../context/ProjectContext';
+import React, { useEffect } from "react";
+import ProjectItemCard from "./ProjectItemCard";
+import "./ProjectItems.scss";
+import { useProject } from "../context/ProjectContext";
 
 function ProjectItems() {
-    const { setProjects } = useProject();
+  const { projects, setProjects } = useProject();
 
-    useEffect(() => {
-        setProjects(projects);
-    }, [setProjects]);
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/lit26/project_list/assets/projects.json"
+    )
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, [setProjects]);
 
-    return (
-        <div className="projectItems">
-            {[...projects].reverse().map((project, index) => (
-                <ProjectItemCard key={index} project={project} />
-            ))}
-        </div>
-    );
+  return (
+    <div className="projectItems">
+      {[...projects].reverse().map((project, index) => (
+        <ProjectItemCard key={index} project={project} />
+      ))}
+    </div>
+  );
 }
 
 export default ProjectItems;
