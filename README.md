@@ -1,4 +1,3 @@
-# project_list
-Develop a website using React.js for showing projects.
+# project_list assets
 
-Website: http://lit26.github.io/project_list
+Assets for the website
