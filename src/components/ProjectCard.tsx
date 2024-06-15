@@ -1,7 +1,6 @@
 import React from "react";
 import { Project } from "../types";
 import { useProject } from "../context/ProjectContext";
-// import { firebaseAnalytics } from "../firebaseConfig";
 
 interface ProjectItemCardProps {
   project: Project;
@@ -10,12 +9,6 @@ const ProjectItemCard: React.FC<ProjectItemCardProps> = ({ project }) => {
   const { selectCategory } = useProject();
   const { select, img, projectName, time, hashtag, tech, description } =
     project;
-
-  const handleProjectClick = () => {
-    // firebaseAnalytics.logEvent(selectCategory, {
-    //   projectName: projectName,
-    // });
-  };
 
   return (
     <a
@@ -27,7 +20,6 @@ const ProjectItemCard: React.FC<ProjectItemCardProps> = ({ project }) => {
       href={project.link}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={handleProjectClick}
     >
       <div className="md:flex px-3 py-4 hover:shadow-default duration-500 mb-2">
         <img

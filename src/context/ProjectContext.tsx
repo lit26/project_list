@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { projects } from "../constants";
-// import { firebaseAnalytics } from "../firebaseConfig";
 
 interface ProjectContextProps {
   selectCategory: string;
