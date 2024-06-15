@@ -23,7 +23,7 @@ const ProjectItemCard: React.FC<ProjectItemCardProps> = ({ project }) => {
     >
       <div className="md:flex px-3 py-4 hover:shadow-default duration-500 mb-2">
         <img
-          className="w-full md:w-72 object-contain mr-8 shadow-default"
+          className="w-full md:w-72 flex-shrink-0 object-contain mr-8 shadow-default"
           src={img}
           alt=""
         />
